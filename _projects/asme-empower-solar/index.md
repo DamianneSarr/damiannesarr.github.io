@@ -59,6 +59,8 @@ We modeled three configurations and compared them on projected output, cost, and
 
 We recommended the canopy-mounted design. Elevating the array cleared the shading and obstruction problems that constrained the rooftop option, and the production gain justified the additional structural work.
 
+{% include image-gallery.html images="layout-comparison.jpg" height="400" %}
+
 ---
 
 ## Project Documentation
@@ -66,6 +68,8 @@ We recommended the canopy-mounted design. Elevating the array cleared the shadin
 A large part of the program was learning how engineering work is actually delivered. Alongside the technical design, our team produced a project charter, business case, feasibility study, work breakdown structure, bill of materials, and Gantt and PERT schedules with critical path analysis.
 
 At program close we presented the final concept and supporting documentation to an audience of practicing CAD engineers, engineering managers, and hiring managers.
+
+{% include image-gallery.html images="results-lessons.jpg" height="400" %}
 
 ---
 
