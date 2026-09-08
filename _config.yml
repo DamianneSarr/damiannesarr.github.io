@@ -1,9 +1,16 @@
+# Main Page Setup
 title: Damianne Sarr | Engineering Portfolio
 name: Damianne Sarr
-description: Electrical engineering student focused on embedded systems, hardware design, and firmware. I build multi-microcontroller systems end to end, from schematic and CAD through firmware and validation. Currently pursuing a B.S. in Electrical Engineering with a long-term goal of FPGA engineering in aerospace and defense.
+headline: Electrical Engineering Student | Embedded Systems & Hardware Design
+description: >-
+  Electrical engineering student focused on embedded systems, hardware design, and firmware.
+  I build multi-microcontroller systems end to end, from schematic and CAD through firmware
+  and validation. Currently pursuing a B.S. in Electrical Engineering with a long-term goal
+  of FPGA engineering in aerospace and defense.
 
-profile_image: /assets/profile/profile.jpg
-resume-url: /assets/pdf/Damianne_Sarr_Resume.pdf
+profile_image: ./assets/images/profile-image/avatar.jpeg
+
+resume-url: /assets/resume/resume.pdf
 
 external-links:
   linkedin: damianne-sarr
@@ -61,7 +68,30 @@ colors:
   background: "#ffffff"
   light_background: "#f3f5fb"
 
+
+#########################################################################################################
+# Build settings for the site. Editing the below may cause the site to malfunction.
+
 collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+      start_line: 1
+      indent: 0
+
+plugins:
+  - jekyll-feed
+
+include:
+  - _projects
