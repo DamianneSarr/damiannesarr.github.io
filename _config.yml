@@ -60,3 +60,8 @@ colors:
   highlight: "#0c0cf2"
   background: "#ffffff"
   light_background: "#f3f5fb"
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
