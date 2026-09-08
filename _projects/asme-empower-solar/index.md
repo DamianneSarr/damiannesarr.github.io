@@ -12,7 +12,7 @@ skills:
   - Gantt and PERT scheduling
   - Technical presentation
 
-main-image: /Final_cad_modeling.jpg
+main-image: /Final_cad_modeling.png
 ---
 
 ## The Assignment
@@ -59,7 +59,7 @@ We modeled three configurations and compared them on projected output, cost, and
 
 We recommended the canopy-mounted design. Elevating the array cleared the shading and obstruction problems that constrained the rooftop option, and the production gain justified the additional structural work.
 
-{% include image-gallery.html images="Engineering_solution_concept.jpg" height="400" %}
+{% include image-gallery.html images="Engineering_solution_concept.png" height="400" %}
 
 ---
 
@@ -69,7 +69,7 @@ A large part of the program was learning how engineering work is actually delive
 
 At program close we presented the final concept and supporting documentation to an audience of practicing CAD engineers, engineering managers, and hiring managers.
 
-{% include image-gallery.html images="Results_and_lessons.jpg" height="400" %}
+{% include image-gallery.html images="Results_and_lessons.png" height="400" %}
 
 ---
 
